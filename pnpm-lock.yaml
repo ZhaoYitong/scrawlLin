@@ -8,6 +8,9 @@ dependencies:
   axios:
     specifier: ^1.6.4
     version: 1.6.4
+  https:
+    specifier: ^1.0.0
+    version: 1.0.0
   moment-timezone:
     specifier: ^0.5.44
     version: 0.5.44
@@ -68,6 +71,10 @@ packages:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       mime-types: 2.1.35
+    dev: false
+
+  /https@1.0.0:
+    resolution: {integrity: sha512-4EC57ddXrkaF0x83Oj8sM6SLQHAWXw90Skqu2M4AEWENZ3F02dFJE/GARA8igO79tcgYqGrD7ae4f5L3um2lgg==}
     dev: false
 
   /mime-db@1.52.0:
